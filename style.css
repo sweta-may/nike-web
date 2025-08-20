@@ -52,18 +52,25 @@ header{
 .products{
     display: flex;
     flex-wrap: nowrap;
+    justify-content: center;
     gap: 30px;
 }
 .product-card{
     background-color: white;
     border-radius: 15px;
     text-align: center;
-    box-shadow:  4px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     padding: 20px;
+    width: 220px;
+
 }
 .product-card img{
     height: 80%;
     width: 80%;
+    border-radius: 8px;
+}
+.product-card h3{
+    
 }
 .content{
     max-width: 500px;
