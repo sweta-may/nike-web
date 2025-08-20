@@ -22,7 +22,7 @@ header{
 .home{ 
     display: flex;/*to keep contents and product side by side*/
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     min-height: 100vh;
     padding: 150px 100px 50px; /*to avoid fixed header overlapping*/
     background-color: #e5e5e5;
@@ -52,7 +52,14 @@ header{
 .products{
     display: flex;
     flex-wrap: nowrap;
-    gap: 15px;
+    gap: 30px;
+}
+.product-card{
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow:  4px 20px rgba(0,0,0,0.1);
+    padding: 20px;
 }
 .product-card img{
     height: 80%;
@@ -63,11 +70,15 @@ header{
 }
 .content p{
     color: grey;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 25px;
 }
 .content h1{
     color: black;
-    font-size:larger;
-    font-weight: 500;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
 .content span{
     color: blueviolet;
