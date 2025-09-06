@@ -15,9 +15,12 @@ header{
     display: flex;
     flex-wrap: nowrap;
     padding: 20px 100px;
+    backdrop-filter: blur(6px);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
     justify-content: space-between;
     align-items: center;
-    background: #f3f3f3;
+    border-radius: 0 0 20px 20px;
+    background:rgba(255, 255, 255, 0.7);
 }
 .home{ 
     display: flex;/*to keep contents and product side by side*/
@@ -120,5 +123,5 @@ header{
 }
 .shop-now:hover{
     color: black;
-    background-color: white;
+    background-color: rgba(57, 54, 54, 0.11);
 }
